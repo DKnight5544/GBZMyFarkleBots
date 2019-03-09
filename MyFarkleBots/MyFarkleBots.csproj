@@ -24,6 +24,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <Use64BitIISExpress />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -66,7 +67,16 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="images\KaraThrace.jpg" />
+    <Content Include="images\Paladine.jpg" />
+    <Content Include="images\Tv_snl_ambiguously_flying.jpg" />
+    <Content Include="index.html" />
+    <Content Include="Starbuck.aspx" />
+    <Content Include="Fizban.aspx" />
     <Content Include="packages.config" />
+    <None Include="Properties\PublishProfiles\dwkbots - FTP.pubxml" />
+    <None Include="Properties\PublishProfiles\dwkbots - Web Deploy.pubxml" />
+    <None Include="Properties\PublishProfiles\FarkleBots - Web Deploy.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -78,7 +88,22 @@
     <Content Include="Web.config" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Starbuck.aspx.cs">
+      <DependentUpon>Starbuck.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Starbuck.aspx.designer.cs">
+      <DependentUpon>Starbuck.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Fizban.aspx.cs">
+      <DependentUpon>Fizban.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Fizban.aspx.designer.cs">
+      <DependentUpon>Fizban.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StarbucksBrain.cs" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

@@ -1,0 +1,86 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Web;
+
+namespace MyFarkleBots
+{
+    public static class StarbucksBrain
+    {
+        public static SortedDictionary<int, string> Moves = new SortedDictionary<int, string>
+        {
+            {111111, "HHHHHH:BANK"},
+            {221111, "HHHHHH:BANK"},
+            {222211, "HHHHHH:BANK"},
+            {222111, "HHHHHH:BANK"},
+            {222222, "HHHHHH:BANK"},
+            {332211, "HHHHHH:BANK"},
+            {332222, "HHHHHH:BANK"},
+            {333111, "HHHHHH:BANK"},
+            {333222, "HHHHHH:BANK"},
+            {333311, "HHHHHH:BANK"},
+            {333322, "HHHHHH:BANK"},
+            {333333, "HHHHHH:BANK"},
+            {441111, "HHHHHH:BANK"},
+            {442211, "HHHHHH:BANK"},
+            {442222, "HHHHHH:BANK"},
+            {443311, "HHHHHH:BANK"},
+            {443322, "HHHHHH:BANK"},
+            {443333, "HHHHHH:BANK"},
+            {444411, "HHHHHH:BANK"},
+            {444422, "HHHHHH:BANK"},
+            {444433, "HHHHHH:BANK"},
+            {444444, "HHHHHH:BANK"},
+            {511111, "HHHHHH:BANK"},
+            {544444, "HHHHHH:BANK"},
+            {551111, "HHHHHH:BANK"},
+            {552211, "HHHHHH:BANK"},
+            {552222, "HHHHHH:BANK"},
+            {553311, "HHHHHH:BANK"},
+            {553322, "HHHHHH:BANK"},
+            {553333, "HHHHHH:BANK"},
+            {554411, "HHHHHH:BANK"},
+            {554422, "HHHHHH:BANK"},
+            {554433, "HHHHHH:BANK"},
+            {554444, "HHHHHH:BANK"},
+            {555111, "HHHHHH:BANK"},
+            {555222, "HHHHHH:BANK"},
+            {555333, "HHHHHH:BANK"},
+            {555444, "HHHHHH:BANK"},
+            {555511, "HHHHHH:BANK"},
+            {555522, "HHHHHH:BANK"},
+            {555533, "HHHHHH:BANK"},
+            {555544, "HHHHHH:BANK"},
+            {555551, "HHHHHH:BANK"},
+            {555555, "HHHHHH:BANK"},
+            {654321, "HHHHHH:BANK"},
+            {661111, "HHHHHH:BANK"},
+            {662211, "HHHHHH:BANK"},
+            {662222, "HHHHHH:BANK"},
+            {663311, "HHHHHH:BANK"},
+            {663322, "HHHHHH:BANK"},
+            {663333, "HHHHHH:BANK"},
+            {664411, "HHHHHH:BANK"},
+            {664422, "HHHHHH:BANK"},
+            {664433, "HHHHHH:BANK"},
+            {664444, "HHHHHH:BANK"},
+            {665511, "HHHHHH:BANK"},
+            {665522, "HHHHHH:BANK"},
+            {665533, "HHHHHH:BANK"},
+            {665544, "HHHHHH:BANK"},
+            {666111, "HHHHHH:BANK"},
+            {666222, "HHHHHH:BANK"},
+            {666333, "HHHHHH:BANK"},
+            {666444, "HHHHHH:BANK"},
+            {666511, "HHHHHH:BANK"},
+            {666551, "HHHHHH:BANK"},
+            {666555, "HHHHHH:BANK"},
+            {666611, "HHHHHH:BANK"},
+            {666651, "HHHHHH:BANK"},
+            {666655, "HHHHHH:BANK"},
+            {666661, "HHHHHH:BANK"},
+            {666666, "HHHHHH:BANK"}
+        };
+
+    }
+}
